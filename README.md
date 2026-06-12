@@ -1,7 +1,7 @@
 # IBR Power System Test Cases
 
-Two benchmark power system models used for inverter-based resource (IBR) studies, specifically for grid-forming (GFM) and grid-following (GFL) converter placement research.  
-These test cases are used in the paper **"Quantifying Voltage–Frequency Coupling via Block Recurrence-Laplacian for Multi-Objective GFM Siting"** (IEEE TSG / Applied Energy, under review).
+Two benchmark power system models for inverter-based resource (IBR) studies, focusing on grid-forming (GFM) and grid-following (GFL) converter placement in high-IBR-penetration grids.  
+Both systems are set up for electromagnetic transient (EMT) simulation using the [ParaEMT](https://github.com/NREL/ParaEMT_public) framework with the WECC generic IBR model chain (REGCA + REECB + REPCA).
 
 ---
 
@@ -112,24 +112,35 @@ Kqv = 0.5  →  Grid-Forming (GFM): virtual voltage source with reactive droop
 Kqv = 0.0  →  Grid-Following (GFL): current-controlled with PLL synchronization
 ```
 
-This convention follows Singhal et al. (IEEE Trans. Smart Grid, 2022) and is used throughout the BRL–PI-GNN siting experiments.
+This convention follows Singhal et al. (IEEE Trans. Smart Grid, 2022).
 
 ---
 
-## Citation
+## How to Cite This Repository
 
-If you use these test cases in your research, please cite:
+If you use these test cases in your research, please cite the repository directly:
 
+**Plain text (e.g. Applied Energy reference list):**
+> S. Shan and Z. Du, "IBR Power System Test Cases: Modified IEEE 39-Bus and WECC 240-Bus Systems for GFM/GFL Placement Studies," GitHub, 2025. [Online]. Available: https://github.com/pidandanta/IBR-Power-System-Testcases
+
+**BibTeX:**
 ```bibtex
-@article{shan2025brl,
-  title   = {Quantifying Voltage--Frequency Coupling via Block Recurrence-Laplacian
-             for Multi-Objective {GFM} Siting},
-  author  = {Shan, Sicheng and Du, Zhaobin},
-  journal = {IEEE Transactions on Smart Grid},
-  year    = {2025},
-  note    = {under review}
+@misc{shan2025ibrtestcases,
+  author       = {Shan, Sicheng and Du, Zhaobin},
+  title        = {{IBR Power System Test Cases}: Modified {IEEE} 39-Bus and
+                  {WECC} 240-Bus Systems for {GFM/GFL} Placement Studies},
+  year         = {2025},
+  howpublished = {GitHub},
+  url          = {https://github.com/pidandanta/IBR-Power-System-Testcases}
 }
 ```
+
+---
+
+## Contact
+
+Sicheng Shan — School of Electric Power Engineering, South China University of Technology  
+Email: shansicheng1997@gmail.com
 
 ---
 
