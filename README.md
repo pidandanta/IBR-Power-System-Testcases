@@ -129,7 +129,7 @@ If you use these test cases in your research, please cite the repository directl
   author       = {Shan, Sicheng and Du, Zhaobin},
   title        = {{IBR Power System Test Cases}: Modified {IEEE} 39-Bus and
                   {WECC} 240-Bus Systems for {GFM/GFL} Placement Studies},
-  year         = {2025},
+  year         = {2026},
   howpublished = {GitHub},
   url          = {https://github.com/pidandanta/IBR-Power-System-Testcases}
 }
